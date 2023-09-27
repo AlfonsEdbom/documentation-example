@@ -1,17 +1,8 @@
-# More features here
+# Another Feature
 
+Here is another feature with lots of important documentation
 
-## Some text
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-
-## Table
+## Table of primes
 
 | No.  |  Prime |
 | ---- | ------ |
@@ -19,7 +10,6 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 | 2    |  Yes   |
 | 3    |  Yes   |
 | 4    |  No    |
-
 
 
 ## Code blocks
@@ -40,9 +30,14 @@ int main()
 }
 ```
 
+## Importing own code
 
-## Math
+```{literalinclude} example.py
+:language: python
+:emphasize-lines: 2-3
+```
 
+## Math equations
 This creates an equation:
 ```{math}
 a^2 + b^2 = c^2
